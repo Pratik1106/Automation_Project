@@ -1,7 +1,7 @@
 #!/bin/bash
 
 MyName="Pratik"
-S3_Bucket_Name="Upgrad-Pratik"
+S3_Bucket_Name="upgrad-pratik"
 
 apt update -y
 
