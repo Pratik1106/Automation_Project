@@ -14,7 +14,7 @@ fi
 
 
 
-Running=$(systemctl status apache2 | grep active | awk '{print $3}' | tr -d'()')
+Running=$(systemctl status apache2 | grep active | awk '{print $3}')
 
 if [[Running != ${Running} ]];
 then
