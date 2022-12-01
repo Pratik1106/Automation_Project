@@ -42,7 +42,6 @@ tar -cf /tmp/${MyName}-httpd-logs-${TimeStamp}.tar *.log
 if [[ -f /tmp/${MyName}-httpd-logs-${TimeStamp}.tar ]]:
 then
 	aws s3 cp /tmp/${MyName}-httpd-logs-${TimeStamp}.tar s3://${S3_Bucket_Name}/${MyName}-httpd-logs-${TimeStamp}.tar
-
 fi
 
 
